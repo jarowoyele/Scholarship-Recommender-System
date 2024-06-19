@@ -202,15 +202,15 @@ def main():
             
             # Display prediction result
         if prediction[0] == 0:
-                st.success('Based on the imformation you provided , you may likely belonng to a "First Class", therefore you are recommended for Scholarship')
+                st.success('Based on the information you provided , you may likely belong to a "First Class", therefore you are recommended for Scholarship')
         elif prediction[0] == 1:
-                st.success('Based on the imformation you provided , you may likely belonng to a "Second Class Upper", therefore you are recommended for Scholarship')
+                st.success('Based on the information you provided , you may likely belong to a "Second Class Upper", therefore you are recommended for Scholarship')
         elif prediction[0] == 2:
-                st.success('Based on the imformation you provided , you may likely belonng to a "Second Class Lower", therefore you are on the Waiting list')
+                st.success('Based on the information you provided , you may likely belong to a "Second Class Lower", therefore you are on the Waiting list')
         elif prediction[0] == 3:
-                st.error('Based on the imformation you provided , you may likely belonng to a "Third Class", therefore you are not elligible for Scholarship')
+                st.error('Based on the information you provided , you may likely belong to a "Third Class", therefore you are not elligible for Scholarship')
         else:
-                st.error('Based on the imformation you provided , you may likely belonng to a "Pass", therefore you are not elligible for Scholarship')
+                st.error('Based on the information you provided , you may likely belong to a "Pass", therefore you are not elligible for Scholarship')
 # Call the main function
 if __name__ == '__main__':
     main()           
