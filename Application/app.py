@@ -122,12 +122,12 @@ def main():
             Been_Losing_Confidence_In_Yourself = st.selectbox('Been.Losing.Confidence.In.Yourself', ["Not More Than Usual", "Not at all","Much More Than Usual","Rather More Than Usual"],placeholder=  "Choose an Option")
             
     gender_map = {"Male": 1, "Female": 0}
-    family_income_map = {"1-100,000": 1, "101,000-200,000": 2, "201,000-300,000": 3, "301,000-500,000": 4,"401,000-500,000": 5, "Above N500,000": 0}
+    family_income_map = {"1-100,000": 1, "101,000-200,000": 2, "201,000-300,000": 3, "301,000-400,000": 4,"401,000-500,000": 5, "Above N500,000": 0}
     house_type_map = {"Flat": 3, "Bungalow": 0, "Duplex": 1, "Face and Face You": 2}
     self_religion_map = {"Christianity": 0, "Islam": 1, "Traditional Religion": 2}
     father_rel = {"Christianity": 0, "Islam": 2, "Traditional Religion": 3}
     response_map = {"Not More Than Usual": 1, "Not at all": 0, "Much More Than Usual": 2, "Rather More Than Usual": 3}
-    age_map = {"14-16": 0, "17-19": 1, "20-22": 2, "21-25": 3, "26-Abov": 5}
+    age_map = {"14-16": 0, "17-19": 1, "20-22": 2, "23-25": 3, "26-Abov": 5}
     father_dead = {"Alive": 0, "Dead": 2}
     mother_dead = {"Alive": 0, "Dead": 1}
     binary_map = { "Yes": 1, "No": 0}
