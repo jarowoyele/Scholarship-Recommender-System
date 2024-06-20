@@ -90,7 +90,7 @@ def main():
         with col4:
             Mother_Alive_or_dead = st.selectbox('Mother Alive or Dead', ["Alive", "Dead"],placeholder=  "Choose an Option")
             Location_Type = st.selectbox('Location Type', ["Urban", "Rural"],placeholder=  "Choose an Option")
-            Family_Size = st.number_input('Family Size', min_value=1, max_value=7, step=1)
+            Family_Size = st.number_input('Family Size', min_value=1, max_value=20, step=1)
             Parental_Marital_Status = st.selectbox('Parental Marital Status', ["Married", "Divorced","Seperated"],placeholder=  "Choose an Option")
            
     with st.container(border=True):
