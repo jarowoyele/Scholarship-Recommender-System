@@ -1,0 +1,3 @@
+streamlit
+pickle-mixin
+scikit-learn==1.2.2
