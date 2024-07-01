@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Load the trained model and scaler
-with open('model3.pkl', 'rb') as file:
+with open('model4.pkl', 'rb') as file:
     model1 = pickle.load(file)
 
 
