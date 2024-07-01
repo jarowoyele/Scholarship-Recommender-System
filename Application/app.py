@@ -11,7 +11,7 @@ st.set_page_config(
 # Load the trained model and scaler
 # with open('Application/model2.pkl', 'rb') as file:
 #     model1 = pickle.load(file)
-model1 = pickle.load("Application/model2.pkl", "rb")
+model1 = pickle.load("Application/model2.pkl")
 
 def set_bg_hack_url():
     '''
