@@ -1,8 +1,10 @@
 import pickle
 import streamlit as st
+import warnings
 
 
-
+warnings.filterwarnings("ignore", message="numpy.dtype size changed")
+warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
 # Set page config
 st.set_page_config(
     layout="wide"
